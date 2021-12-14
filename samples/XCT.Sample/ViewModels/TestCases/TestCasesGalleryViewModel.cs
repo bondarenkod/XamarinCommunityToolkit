@@ -10,6 +10,16 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.TestCases
 		protected override IEnumerable<SectionModel> CreateItems() => new[]
 		{
 			new SectionModel(
+				typeof(GH_BUG_1761),
+				"Popup, GitHub #1761",
+				"Popup, GitHub #1761"),
+
+			new SectionModel(
+				typeof(GH_BUG_1764),
+				"Popup, GitHub #1764",
+				"Popup, GitHub #1764"),
+
+			new SectionModel(
 				typeof(TouchEffectButtonPage),
 				"TouchEffect + Button",
 				"TouchEffect must automatically invoke button's command execution."),
